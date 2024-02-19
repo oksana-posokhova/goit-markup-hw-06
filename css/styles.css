@@ -107,7 +107,7 @@ font-family: "Raleway", sans-serif;
 .main-container {
     padding-top: 188px;
     padding-right: 472px;
-    padding-bottom: 292px;
+    padding-bottom: 188px;
     padding-left: 472px;
 }
 .main-title {
@@ -147,8 +147,20 @@ font-family: "Raleway", sans-serif;
         color: #fff;
 }
 .skills {
-    padding-bottom: 60px;
-    padding-top: 60px;
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+.skil {
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
 }
 .skills-lis {
     display: flex;
@@ -173,6 +185,7 @@ font-family: "Raleway", sans-serif;
         letter-spacing: 0.02em;
         color: #434455;
 }
+
 .our-team {
     background-color: #F4F4FD;
     padding-top: 60px;
