@@ -268,7 +268,12 @@ border-radius: 0 0 4px 4px;
     background-color: #FFFFFF;
     width: calc((100%-48px) / 3);
 }
-
+.item {
+    margin-bottom: 48px;
+}
+.item-bottom {
+    margin-bottom: 0;
+}
 
 .our-portfolio-list-title {
     font-family: "Roboto", sans-serif;
@@ -305,10 +310,11 @@ padding: 100px 0;
     padding-left: 156px;
     padding-right: 1020px;
     max-width: 264px;
+    display: inline-block;
 }
 .logo-footer {
     margin-bottom: 16px;
-    display: inline-block;
+    
 }
 .footer-text {
     font-family: "Roboto", sans-serif;
