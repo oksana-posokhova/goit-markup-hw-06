@@ -208,14 +208,16 @@ font-family: "Raleway", sans-serif;
     flex-wrap: wrap;
     gap: 24px;
 }
+.people {
+    padding: 32px 0;
+}
 .team-item {
     background-color: #FFFFFF;
     width: calc((100%-72px) / 4);
 border-radius: 0 0 4px 4px;
 }
-.people {
-    padding: 32px 0;
-}
+
+
 .our-team-list-title {
     font-family: "Roboto", sans-serif;
         font-weight: 500;
