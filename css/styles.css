@@ -165,7 +165,7 @@ font-family: "Raleway", sans-serif;
 .skills-lis {
     display: flex;
     flex-wrap: wrap;
-    gap: 24;
+    gap: 24px;
 }
 .skills-lis-tex {
     flex-basis: calc((100% - 72px) / 4);
@@ -265,10 +265,11 @@ border-radius: 0 0 4px 4px;
     display: flex;
     flex-wrap: wrap;
         gap: 24px;
+        row-gap: 48px;
 }
 .our-portfolio-item {
     background-color: #FFFFFF;
-    flex-basis: calc((100%-48px) / 3);
+    flex-basis: calc((100% - 48px) / 3);
 }
 
 
