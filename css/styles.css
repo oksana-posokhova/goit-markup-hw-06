@@ -164,10 +164,11 @@ font-family: "Raleway", sans-serif;
 }
 .skills-lis {
     display: flex;
+    flex-wrap: wrap;
     gap: 24;
 }
 .skills-lis-tex {
-    flex-basis: calc((100% - 72 пікселів) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 .skills-list-title {
     font-family: "Roboto", sans-serif;
@@ -267,14 +268,9 @@ border-radius: 0 0 4px 4px;
 }
 .our-portfolio-item {
     background-color: #FFFFFF;
-    width: calc((100%-48px) / 3);
+    flex-basis: calc((100%-48px) / 3);
 }
-.item {
-    margin-bottom: 48px;
-}
-.item-bottom {
-    margin-bottom: 0;
-}
+
 
 .our-portfolio-list-title {
     font-family: "Roboto", sans-serif;
