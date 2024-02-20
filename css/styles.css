@@ -188,8 +188,8 @@ font-family: "Raleway", sans-serif;
 
 .our-team {
     background-color: #F4F4FD;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .our-team-list {
     font-family: "Roboto", sans-serif;
@@ -238,8 +238,8 @@ border-radius: 0 0 4px 4px;
         color: #434455;
 }
 .portfolio {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .portfol {
     padding: 32px 16px;
@@ -294,7 +294,8 @@ border-radius: 0 0 4px 4px;
 }
 .footer {
     background: #2e2f42;
-    padding-top: 60px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .footer-logo-part {
     font-family: "Raleway", sans-serif;
