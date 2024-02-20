@@ -101,8 +101,8 @@ font-family: "Raleway", sans-serif;
 }
 .main {
     background: #2e2f42;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .main-container {
     padding-top: 188px;
@@ -167,7 +167,7 @@ font-family: "Raleway", sans-serif;
     gap: 24;
 }
 .skills-lis-tex {
-    width: calc((100%-72px) / 4);
+    flex-basis: calc((100% - 72 пікселів) / 4);
 }
 .skills-list-title {
     font-family: "Roboto", sans-serif;
@@ -176,6 +176,7 @@ font-family: "Raleway", sans-serif;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 .skills-list-text {
     font-family: "Roboto", sans-serif;
@@ -213,7 +214,7 @@ font-family: "Raleway", sans-serif;
 }
 .team-item {
     background-color: #FFFFFF;
-    width: calc((100%-72px) / 4);
+flex-basis: calc((100% - 72 пікселів) / 4);
 border-radius: 0 0 4px 4px;
 }
 
@@ -311,11 +312,11 @@ padding: 100px 0;
     padding-left: 156px;
     padding-right: 1020px;
     max-width: 264px;
-    display: inline-block;
+    
 }
 .logo-footer {
     margin-bottom: 16px;
-    
+    display: inline-block;
 }
 .footer-text {
     font-family: "Roboto", sans-serif;
