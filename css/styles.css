@@ -435,6 +435,10 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         color: #f4f4fd;
         width: 264px;
         }
+  .container-footer {
+    display: flex;
+        align-items: baseline;
+  }
 
  .ftr-two {
      align-items: baseline;
