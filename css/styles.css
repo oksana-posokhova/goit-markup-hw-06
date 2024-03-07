@@ -488,6 +488,10 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
      line-height: 2;
      letter-spacing: 0.04em;
  }
+ .icon-footer-third {
+     margin-left: 16px;
+     fill: #ffffff;
+ }
 
  .ftr-form-btn {
      display: flex;
