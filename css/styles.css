@@ -421,6 +421,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
 
  .ftr-two {
      align-items: baseline;
+     margin-right: 80px;
  }
 .ftr-one {
     margin-right: 120px;
@@ -716,7 +717,6 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
  .review-form-privacy-chackbox:focus+.review-form-chackbox-label .review-form-own-chackbox {
      outline: 2px solid rgba(0, 0, 225, 0.1);
  }
-
  .submit-btn {
      display: block;
      flex-direction: row;
