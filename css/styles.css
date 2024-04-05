@@ -125,7 +125,7 @@ header {
     background-image: linear-gradient(to bottom,
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-        url(../images/Mobile/Dark-bg.jpg);
+        url(../images/mobail/Dark-bg.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -141,7 +141,6 @@ header {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    padding: 72px 0;
     margin: 0 auto;
 }
 
@@ -432,7 +431,7 @@ header {
     gap: 72px;
     align-items: center;
     align-content: center;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .ftr-logo {
@@ -546,8 +545,7 @@ header {
 .form-label {
     display: flex;
     height: 40px;
-    margin-left: 16px;
-    margin-right: 16px;
+    
 }
 
 .form-input {
@@ -1124,11 +1122,11 @@ header {
 
     .first-section {
         max-width: 768px;
-        padding: 112px 136px;
+        padding: 112px 0;
         background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/Tablet/Tabletbg.jpg);
+            url(../images/tablet/Tabletbg.jpg);
     }
 
     .page-title {
@@ -1189,7 +1187,7 @@ header {
     .ftr-box {
         flex-direction: row;
         flex-wrap: wrap;
-        max-width: 584px;
+        max-width: 530px;
         gap: 72px 24px;
     }
 
@@ -1258,7 +1256,7 @@ header {
         background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/PC/bgimage.jpg);
+            url(../images/pc/bgimage.jpg);
     }
 
     .second-section .container {
@@ -1367,7 +1365,7 @@ header {
         background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/Mobile/Dark-bg@2x.jpg);
+            url(../images/mobail/Dark-bg@2x.jpg);
     }
 }
 
@@ -1376,7 +1374,7 @@ header {
         background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/Tablet/Tabletbg@2x.jpg);
+            url(../images/tablet/Tabletbg@2x.jpg);
     }
 }
 
@@ -1385,6 +1383,6 @@ header {
         background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/PC/bgimage@2x.jpg);
+            url(../images/pc/bgimage@2x.jpg);
     }
 }
